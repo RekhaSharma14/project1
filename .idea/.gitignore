@@ -1,0 +1,7 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/codeStyles
+out/
+.idea/codeStyles/
+*.classes
