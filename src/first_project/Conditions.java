@@ -45,6 +45,7 @@ public class Conditions {
         // **************************************************
         int number = scanner.nextInt();
 
+
         switch(number){
             case 1:
                 System.out.println("You entered one.");
@@ -54,6 +55,9 @@ public class Conditions {
                 break;
             default:
                 System.out.println("Invalid number.");
+
+
+
 
         }
 

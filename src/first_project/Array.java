@@ -1,6 +1,6 @@
 package first_project;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Array {
     public static void main(String[] args) {
@@ -17,10 +17,13 @@ public class Array {
             }
         }
 
+
+
+
        // for(int i =a.length-1; i >=0; i--){
         //    System.out.println(a[i]);
         //}
-         int count =0;
+         //int count =0;
         int sumOfNumbers = 0;
         //for (int i = 0; i<=a.length-1; i++){
           //  if(a[i]>100) {
@@ -29,18 +32,18 @@ public class Array {
         //}
         //System.out.println("Total no of values greater than 100: "+ count);
 
-        for(int i = 0; i <a.length; i++){
-            sumOfNumbers = a[i] + sumOfNumbers;
+        for(int c:a){
+            sumOfNumbers = c + sumOfNumbers;
         }
         System.out.println(sumOfNumbers);
         double mean = (double) sumOfNumbers/a.length;
         System.out.println(mean);
 
 
-        Scanner scanner = new Scanner(System.in);
+       // Scanner scanner = new Scanner(System.in);
         System.out.println("Number of Laps : ");
-        int noOfLaps = scanner.nextInt();
-        double [] lapTime = new double[noOfLaps];
+        //int noOfLaps = scanner.nextInt();
+        //double [] lapTime = new double[noOfLaps];
 
         /*for(int i = 0; i<noOfLaps; i++{
 
