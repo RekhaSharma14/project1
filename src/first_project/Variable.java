@@ -1,8 +1,10 @@
 package first_project;
 
-import java.util.Scanner;
+
 
 public class Variable {
+
+
 
     public static void main(String[] args){
 
@@ -25,7 +27,7 @@ public class Variable {
         System.out.format("\n%f\n",2.8-1.2);
         System.out.println(5>7);*/
 
-        System.out.println(1);
+       /* System.out.println(1);
         System.out.println(2);
         System.out.println(3);
         if(false){
@@ -35,7 +37,7 @@ public class Variable {
         }
         System.out.println(7);
         System.out.println(8);
-        System.out.println(9);
+        System.out.println(9);*/
 
 
 

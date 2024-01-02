@@ -9,6 +9,7 @@ public class CodingChallange2 {
             i++;
         }
 
+
         for(i=1; i<=40;i++){
             if (i % 3 ==1 && i!=1){
                 System.out.println("Quack");

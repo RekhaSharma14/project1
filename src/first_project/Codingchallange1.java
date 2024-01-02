@@ -61,6 +61,7 @@ public class Codingchallange1 {
         Scanner scanner = new Scanner(System.in);
         String again;
 
+
         do
         {int num = ThreadLocalRandom.current().nextInt(1,7);
         System.out.println("You rolled a " + num + ".");

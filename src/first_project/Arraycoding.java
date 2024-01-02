@@ -5,9 +5,11 @@ public class Arraycoding {
     public static void main(String[] args) {
 
         int [] a = {20, 65, 68, 786, 89, 100, 45, 87, 76, 99};
-        for( int i=0;i<a.length;i++){
-            System.out.println(a[i]);
+        for( int val:a){
+            System.out.println(val);
         }
+
+
 
         int [] intArr = new int [20];
         for( int i=0;i< intArr.length;i++){
