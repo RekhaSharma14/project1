@@ -43,9 +43,9 @@ public class Conditions {
             System.out.println("Sorry, you must be over 18.");
         }*/
         // **************************************************
-        int num = scanner.nextInt();
+        int number = scanner.nextInt();
 
-        switch(num){
+        switch(number){
             case 1:
                 System.out.println("You entered one.");
                 break;
